@@ -2,7 +2,7 @@ import cv2
 import numpy as np
 
 plat_detector =  cv2.CascadeClassifier(cv2.data.haarcascades + "DL_license_plate.xml")
-video = cv2.VideoCapture('D:\Desktop\Projects\projectsss\Vehicle\Data/vid1.mp4')
+video = cv2.VideoCapture('/Data/8.mp4')
 
 if(video.isOpened()==False):
     print('Error Reading Video')
